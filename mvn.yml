@@ -1,0 +1,6 @@
+---
+- hosts: mvn
+  roles:
+    -  ansible-java8-oracle
+    -  maven
+
